@@ -125,7 +125,7 @@
                         <div id="content">
                             @foreach (var item in Model.Products)
                             {
-                                <a asp-controller="Brands" asp-action="DetailsClient" asp-route-id="@item.ProductId" class="item-wrap">
+                                <a asp-controller="Products" asp-action="DetailsClient" asp-route-id="@item.ProductId" class="item-wrap">
                                     <img class="item"
                                          src="~/@item.ImageName" />
                                     <p class="item-name">@Html.DisplayFor(modelItem => item.ProductName)</p>
