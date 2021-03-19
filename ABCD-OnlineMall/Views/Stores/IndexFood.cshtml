@@ -21,7 +21,7 @@
                 @foreach (var item in Model)
                 {
                     <div class="col-3">
-                        <a asp-controller="Plots" asp-action="StoreDetails" asp-route-id="@item.StoreId" class="card card--effect-1">
+                        <a asp-controller="Plots" asp-action="StoreDetailsClient" asp-route-id="@item.StoreId" class="card card--effect-1">
                             <div class="card-img"
                                  style='background-image: url("/@item.ImageName");'>
                             </div>
